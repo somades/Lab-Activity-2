@@ -1,0 +1,13 @@
+# *****************************************
+# Lab Activity 2: Exercise 4              *
+# Programmed by: FATIMA LENIN F. PALMON   *
+# Course and Section: BSCpE 2-3           *
+# Instructor: ENGR. GODOFREDO T. AVENA    *
+# Date Submitted: October 1, 2024         *
+# *****************************************
+
+n = int(input("Enter the height of the triangle: "))
+
+
+for i in range(n, 0, -1):  
+    print('*' * i)  
