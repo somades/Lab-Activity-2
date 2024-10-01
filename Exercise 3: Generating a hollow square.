@@ -1,0 +1,20 @@
+# *****************************************
+# Lab Activity 2: Exercise 3              *
+# Programmed by: FATIMA LENIN F. PALMON   *
+# Course and Section: BSCpE 2-3           *
+# Instructor: ENGR. GODOFREDO T. AVENA    *
+# Date Submitted: October 1, 2024         *
+# *****************************************
+
+def hollow_square(n):
+    print("X" * n)
+    
+    for i in range(n - 2):
+        print("X" + " " * (n - 2) + "X")
+    
+    if n > 1:
+        print("X" * n)
+
+n = int(input("Enter the side length of the square: "))
+
+hollow_square(n)
