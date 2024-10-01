@@ -1,0 +1,18 @@
+# *****************************************
+# Lab Activity 2: Exercise 2              *
+# Programmed by: FATIMA LENIN F. PALMON   *
+# Course and Section: BSCpE 2-3           *
+# Instructor: ENGR. GODOFREDO T. AVENA    *
+# Date Submitted: October 1, 2024         *
+# *****************************************
+def compute_cubes(array):
+    cubes = [x**3 for x in array]
+    return cubes
+
+size = int(input("Enter the size of the array: "))
+
+array = list(map(int, input("Enter the elements separated by space: ").split()))
+
+cubes = compute_cubes(array)
+for cube in cubes:
+    print(cube)
